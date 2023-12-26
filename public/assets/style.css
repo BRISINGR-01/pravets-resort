@@ -41,11 +41,11 @@ body {
 
 nav {
 	padding: 0.5em 1em;
-	height: 5em;
 	background-color: rgb(40, 40, 40);
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	flex-wrap: wrap;
 }
 
 .home-title {
@@ -60,6 +60,8 @@ nav {
 .home-title > span {
 	font-size: 2em;
 	font-weight: 600;
+	width: 100%;
+	cursor: pointer;
 }
 
 .nav-items {
@@ -88,7 +90,7 @@ main {
 .modal {
 	display: none;
 	position: fixed;
-	z-index: 1;
+	z-index: 10;
 	justify-content: center;
 	align-items: center;
 	left: 0;
@@ -107,7 +109,7 @@ main {
 }
 
 .modal-content {
-	background-color: #fefefe;
+	background-color: #e2e2e2;
 	margin: 2em;
 	display: flex;
 	flex-direction: column;
@@ -136,7 +138,7 @@ main {
 .modal-content > a {
 	color: #000;
 	display: flex;
-	font-size: xx-large;
+	font-size: 2em;
 	justify-content: start;
 	gap: 1em;
 	align-items: center;
@@ -166,12 +168,24 @@ main {
 		width: calc(1.5em * 4 / 3);
 		border-radius: 10px;
 	}
+	nav > .home-title {
+		width: 100%;
+	}
 	nav {
 		padding: 1em;
-		height: 3em;
+		justify-content: center;
 	}
 	.nav-items {
 		display: flex;
 		gap: 1em;
+	}
+	.modal-content {
+		padding: 1.5em;
+	}
+	.modal-content:nth-child(0) > a {
+		display: none;
+	}
+	.modal-content > a {
+		font-size: 1em;
 	}
 }
