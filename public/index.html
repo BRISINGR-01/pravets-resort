@@ -13,7 +13,7 @@
 		<meta
 			name="description"
 			content="Apartament Pravets Spa Resort with beautiful lake view
-		предлага настаняване в Праветс с безплатен WiFi и изглед към езерото. На разположение на гостите има ресторант, бар и тераса. Мястото за настаняване е построено през 2007 година и предлага климатизирани помещения за настаняване с балкон.
+		предлага настаняване в Правец безплатен WiFi и изглед към езерото. На разположение на гостите има ресторант, бар и тераса. Мястото за настаняване е построено през 2007 година и предлага климатизирани помещения за настаняване с балкон.
 		offers accommodation in Pravets with free WiFi and lake views. There is a restaurant, a bar and a terrace at guests' disposal. The property was built in 2007 and offers air-conditioned accommodation with a balcony.
 		Апартаментът разполага с 1 спалня, 1 баня, спално бельо, хавлии, плоскоекранен телевизор с кабелни канали, кът за хранене, напълно оборудвана кухня и вътрешен двор с изглед към езерото.
 		The apartment has 1 bedroom, 1 bathroom, bed linen, towels, a flat-screen TV with cable channels, a dining area, a fully equipped kitchen, and a patio with lake views.
@@ -21,21 +21,27 @@
 		There is a children's playground on site, and there are conditions for hiking in the immediate vicinity of the apartment."
 		/>
 		<style>
-			main {
-				background-image: url("./photos/building-s-1.jpg");
-				background-position: center;
-				background-repeat: no-repeat;
-				background-size: cover;
+			.bg {
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				object-position: center;
+				object-fit: cover;
+				filter: brightness(0.5);
 			}
 			.container {
+				z-index: 1;
 				border-radius: 10px;
-				font-size: xx-large;
+				font-size: 1.5em;
 				display: flex;
 				flex-direction: column;
 				padding: 2em;
 				margin: 0 2em;
-				background-color: rgba(0, 0, 0, 0.8);
+				background-color: rgba(40, 40, 40, 0.65);
 				color: white;
+			}
+			main {
+				position: relative;
 			}
 		</style>
 	</head>
@@ -123,14 +129,18 @@
 			</nav>
 		</header>
 		<main>
+			<img class="bg" src="./photos/building-s-1.jpg" alt="background" />
+
 			<div class="container">
-				<i
-					data-bg="Apartament Pravets Spa Resort with beautiful lake view"
-					data-en="Apartament Pravets Spa Resort with beautiful lake view"
-				></i>
+				<b
+					data-bg='"Pravets lake view apartament"'
+					data-en='"Pravets lake view apartament"'
+				>
+				</b>
+				<br />
 				<span
-					data-bg="предлага настаняване в Праветс с безплатен WiFi и изглед към езерото. На разположение на гостите има ресторант, бар и тераса. Мястото за настаняване е построено през 2007 година и предлага климатизирани помещения за настаняване с балкон."
-					data-en="offers accommodation in Pravets with free WiFi and lake views. There is a restaurant, a bar and a terrace at guests' disposal. The property was built in 2007 and offers air-conditioned accommodation with a balcony."
+					data-bg='Предлага настаняване в комплекс "Езерото" Правец с безплатен WiFi и изглед към езерото. На разположение на гостите има ресторант, бар и тераса. Мястото за настаняване е построено през 2007 година и предлага климатизирани помещения за настаняване с балкон.'
+					data-en='offers accommodation in complex "The Lake" Pravets with free WiFi and lake views. There is a restaurant, a bar and a terrace at guests&apos; disposal. The property was built in 2007 and offers air-conditioned accommodation with a balcony.'
 				>
 				</span>
 				<br />
@@ -153,17 +163,15 @@
 				<br />
 
 				<span
-					data-bg="Най-близкото летище е София, на 47 км от студио-апартамент „Праветс
-					СПА“."
-					data-en="The nearest airport is Sofia Airport, 47 km from “Pravets SPA“ studio-apartment."
+					data-bg="Най-близкото летище е в София на 47 км."
+					data-en="The nearest airport is in Sofia Airport 47 km away."
 				>
 				</span>
 
 				<br />
 
 				<span
-					data-bg="Двойките харесват местоположението - те му дават оценка от 9.7 за
-					пътуване за двама."
+					data-bg="Двойките харесват местоположението - те му дават оценка от 9.7 за пътуване за двама."
 					data-en="Couples love the location - they rate it 9.7 for a trip for two."
 				>
 				</span>

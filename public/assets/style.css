@@ -1,5 +1,6 @@
 html,
 body {
+	font-family: Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif;
 	margin: 0;
 	box-sizing: border-box;
 	height: 100vh;
@@ -41,7 +42,7 @@ body {
 nav {
 	padding: 0.5em 1em;
 	height: 5em;
-	background-color: rgb(62, 64, 66);
+	background-color: rgb(40, 40, 40);
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
