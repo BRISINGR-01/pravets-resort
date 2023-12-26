@@ -1,0 +1,5 @@
+user-agent: *
+allow: /public
+
+user-agent: magicsearchbot
+allow: /public
