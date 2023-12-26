@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="shortcut icon" href="./assets/icon.ico" type="image/x-icon" />
+		<link rel="stylesheet" href="./assets/style.css" />
+
+		<title>Studio Pravets</title>
+		<meta name="title-bg" content="Студио Правец" />
+		<meta name="title-en" content="Studio Pravets" />
+		<style>
+			main {
+				background-image: url("/photos/building-s-1.jpg");
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
+			.container {
+				border-radius: 10px;
+				font-size: xx-large;
+				display: flex;
+				flex-direction: column;
+				padding: 2em;
+				margin: 0 2em;
+				background-color: rgba(0, 0, 0, 0.8);
+				color: white;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="contactsModal" class="modal">
+			<div class="modal-content">
+				<span class="close">&times;</span>
+				<a href="tel:+359885970498">
+					<img
+						height="40"
+						width="40"
+						src="./assets/calling-icon.svg"
+						alt="contact"
+					/>
+					<span> +359885970498 </span>
+				</a>
+				<a href="mailto:cvetiigateva@gmail.com">
+					<img height="40" width="40" src="./assets/email.svg" alt="email" />
+					<span> cvetiigateva@gmail.com </span>
+				</a>
+				<a href="https://maps.app.goo.gl/WWYhzSsKdZqFbxM56">
+					<img
+						height="40"
+						width="40"
+						src="./assets/location.svg"
+						alt="address"
+					/>
+					<span> Studio/Apartment Pravets Spa & Golf Resort </span>
+				</a>
+			</div>
+		</div>
+
+		<header>
+			<nav>
+				<a class="home-title" href="/index.html">
+					<img
+						class="icon"
+						width="100"
+						height="100"
+						src="./assets/icons.svg"
+						alt="icon"
+					/>
+					<span
+						data-en="Pravets Resort"
+						data-bg="Правец апартамент под наем"
+						style="color: white"
+					></span>
+				</a>
+				<div class="nav-items">
+					<a href="/photos.html">
+						<img
+							class="icon inverted"
+							height="100"
+							width="100"
+							src="./assets/gallery-icon.svg"
+							alt="gallery"
+						/>
+					</a>
+					<btn id="contactsBtn">
+						<img
+							class="icon inverted"
+							height="100"
+							width="100"
+							src="./assets/calling-icon.svg"
+							alt="contact"
+						/>
+					</btn>
+					<div class="icon" style="width: calc(2em * 4 / 3 + 0.5em)">
+						<img
+							height="30"
+							width="40"
+							id="english"
+							src="./assets/english.svg"
+							alt="english"
+						/>
+						<img
+							height="30"
+							width="40"
+							id="bulgarian"
+							src="./assets/bulgarian.svg"
+							alt="bulgarian"
+						/>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<main>
+			<div class="container">
+				<i
+					data-bg="Apartament Pravets Spa Resort with beautiful lake view"
+					data-en="Apartament Pravets Spa Resort with beautiful lake view"
+				></i>
+				<span
+					data-bg="предлага настаняване в Праветс с безплатен WiFi и изглед към езерото. На разположение на гостите има ресторант, бар и тераса. Мястото за настаняване е построено през 2007 година и предлага климатизирани помещения за настаняване с балкон."
+					data-en="offers accommodation in Pravets with free WiFi and lake views. There is a restaurant, a bar and a terrace at guests' disposal. The property was built in 2007 and offers air-conditioned accommodation with a balcony."
+				>
+				</span>
+				<br />
+
+				<span
+					data-bg="Апартаментът разполага с 1 спалня, 1 баня, спално бельо, хавлии,
+					плоскоекранен телевизор с кабелни канали, кът за хранене, напълно
+					оборудвана кухня и вътрешен двор с изглед към езерото."
+					data-en="The apartment has 1 bedroom, 1 bathroom, bed linen, towels, a flat-screen TV with cable channels, a dining area, a fully equipped kitchen, and a patio with lake views."
+				>
+				</span>
+				<br />
+				<span
+					data-bg="На място има детска площадка, а в непосредствена близост до апартамента
+					има условия за пешеходен туризъм."
+					data-en="There is a children's playground on site, and there are conditions for hiking in the immediate vicinity of the apartment."
+				>
+				</span>
+
+				<br />
+
+				<span
+					data-bg="Най-близкото летище е София, на 47 км от студио-апартамент „Праветс
+					СПА“."
+					data-en="The nearest airport is Sofia Airport, 47 km from “Pravets SPA“ studio-apartment."
+				>
+				</span>
+
+				<br />
+
+				<span
+					data-bg="Двойките харесват местоположението - те му дават оценка от 9.7 за
+					пътуване за двама."
+					data-en="Couples love the location - they rate it 9.7 for a trip for two."
+				>
+				</span>
+			</div>
+		</main>
+	</body>
+	<script src="./js/navbar.js"></script>
+</html>
