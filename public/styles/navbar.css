@@ -7,6 +7,7 @@ body {
 	width: 100vw;
 	flex-direction: column;
 	display: flex;
+	background-color: rgb(66, 66, 66);
 }
 
 .icon {
@@ -28,8 +29,12 @@ body {
 .icon:hover {
 	background-color: rgba(255, 255, 255, 0.9);
 }
-#english,
-#bulgarian {
+
+.lang {
+	width: calc(2em * 4 / 3 + 0.5em);
+}
+
+.lang > img {
 	box-sizing: content-box;
 	border: 4px solid black;
 	height: 2em;
@@ -58,18 +63,20 @@ nav {
 }
 
 .home-title > span {
-	font-size: 2em;
+	font-size: 1.5em;
 	font-weight: 600;
 	width: 100%;
+	color: white;
 	cursor: pointer;
 }
 
 .nav-items {
 	display: flex;
-	gap: 2em;
+	gap: 1em;
 }
 
 main {
+	position: relative;
 	display: flex;
 	width: 100%;
 	height: 100%;
@@ -101,6 +108,7 @@ main {
 	background-color: rgb(0, 0, 0);
 	background-color: rgba(0, 0, 0, 0.7);
 	transition: all 0.5s;
+	flex-wrap: wrap;
 }
 
 .modal-content > a {
@@ -153,27 +161,23 @@ main {
 
 @media only screen and (max-width: 768px) {
 	.home-title > span {
-		width: 50vw;
-		font-size: 1em;
+		font-size: 1.5em;
 		font-weight: 600;
-		text-decoration: underline;
 	}
 	.icon {
 		height: 2em;
 		width: 2em;
 	}
-	#english,
-	#bulgarian {
+	.lang {
+		width: calc(1.5em * 4 / 3 + 0.5em);
+	}
+	.lang > img {
 		height: 1.5em;
 		width: calc(1.5em * 4 / 3);
 		border-radius: 10px;
 	}
-	nav > .home-title {
-		width: 100%;
-	}
 	nav {
 		padding: 1em;
-		justify-content: center;
 	}
 	.nav-items {
 		display: flex;

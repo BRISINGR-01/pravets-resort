@@ -4,8 +4,8 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="shortcut icon" href="./assets/icon.ico" type="image/x-icon" />
-		<link rel="stylesheet" href="./assets/style.css" />
+		<link rel="shortcut icon" href="./icons/icon.ico" type="image/x-icon" />
+		<link rel="stylesheet" href="./styles/navbar.css" />
 
 		<title>Studio Pravets</title>
 		<meta name="title-bg" content="Студио Правец" />
@@ -30,20 +30,18 @@
 				filter: brightness(0.4);
 			}
 			.container {
-				position: absolute;
-				top: 0;
-
+				overflow: auto;
+				height: 80%;
 				z-index: 1;
 				border-radius: 10px;
 				display: flex;
 				flex-direction: column;
 				padding: 2em;
 				margin: 1em 2em;
-				background-color: rgba(40, 40, 40, 0.7);
+				background-color: rgba(40, 40, 40, 0.9);
 				color: white;
-			}
-			main {
-				position: relative;
+				font-size: 1.5em;
+				justify-content: space-between;
 			}
 		</style>
 	</head>
@@ -55,20 +53,20 @@
 					<img
 						height="40"
 						width="40"
-						src="./assets/calling-icon.svg"
+						src="./icons/calling-icon.svg"
 						alt="contact"
 					/>
 					<span> +359885970498 </span>
 				</a>
 				<a href="mailto:cvetiigateva@gmail.com">
-					<img height="40" width="40" src="./assets/email.svg" alt="email" />
+					<img height="40" width="40" src="./icons/email.svg" alt="email" />
 					<span> cvetiigateva@gmail.com </span>
 				</a>
 				<a href="https://maps.app.goo.gl/WWYhzSsKdZqFbxM56">
 					<img
 						height="40"
 						width="40"
-						src="./assets/location.svg"
+						src="./icons/location.svg"
 						alt="address"
 					/>
 					<span data-bg="Адрес" data-en="Address"></span>
@@ -83,13 +81,12 @@
 						class="icon"
 						width="100"
 						height="100"
-						src="./assets/icon.svg"
+						src="./icons/icon.svg"
 						alt="icon"
 					/>
 					<span
 						data-en="Pravets Resort"
 						data-bg="Правец апартамент под наем"
-						style="color: white"
 					></span>
 				</a>
 				<div class="nav-items">
@@ -98,7 +95,7 @@
 							class="icon inverted"
 							height="100"
 							width="100"
-							src="./assets/gallery-icon.svg"
+							src="./icons/gallery-icon.svg"
 							alt="gallery"
 						/>
 					</a>
@@ -107,23 +104,23 @@
 							class="icon inverted"
 							height="100"
 							width="100"
-							src="./assets/calling-icon.svg"
+							src="./icons/calling-icon.svg"
 							alt="contact"
 						/>
 					</btn>
-					<div class="icon" style="width: calc(2em * 4 / 3 + 0.5em)">
+					<div class="icon lang">
 						<img
 							height="30"
 							width="40"
 							id="english"
-							src="./assets/english.svg"
+							src="./icons/english.svg"
 							alt="english"
 						/>
 						<img
 							height="30"
 							width="40"
 							id="bulgarian"
-							src="./assets/bulgarian.svg"
+							src="./icons/bulgarian.svg"
 							alt="bulgarian"
 						/>
 					</div>
@@ -175,6 +172,19 @@
 				<span
 					data-bg="Двойките харесват местоположението - те му дават оценка от 9.7 за пътуване за двама."
 					data-en="Couples love the location - they rate it 9.7 for a trip for two."
+				>
+				</span>
+
+				<br />
+				<span
+					data-bg="Платени екстри (осигурени от хотел Хаят): велосипеди под наем, вътрешен и външен (сезонен) басейн, спа, тенис кортове и фитнес."
+					data-en="Paid extras (provided by hotel Hyat): rental bikes, inside and outside (seasonal) pools, spa, tennis corts, and fitness."
+				>
+				</span>
+				<br />
+				<span
+					data-bg="Други съоръжения/занимания: голф (заплаща се допълнително), туристически пътеки и пътеки за разходка, боулинг (заплаща се допълнително) и две детски площадки."
+					data-en="Other facilities/activities: golf (paid extra), hiking trails and walking paths, bowling (paid extra), and two playgrounds."
 				>
 				</span>
 			</div>

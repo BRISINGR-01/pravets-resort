@@ -4,12 +4,24 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="shortcut icon" href="./assets/icon.ico" type="image/x-icon" />
+		<link rel="shortcut icon" href="./icons/icon.ico" type="image/x-icon" />
+		<link rel="stylesheet" href="./styles/navbar.css" />
+		<link rel="stylesheet" href="./styles/photos.css" />
 
 		<title>Photos</title>
-		<meta name="title-bg" content="Снимки" />
 		<meta name="title-en" content="Photos" />
-		<link rel="stylesheet" href="./assets/style.css" />
+		<meta name="title-bg" content="Снимки" />
+		<meta
+			name="description"
+			content="Apartament Pravets Spa Resort with beautiful lake view
+		предлага настаняване в Правец безплатен WiFi и изглед към езерото. На разположение на гостите има ресторант, бар и тераса. Мястото за настаняване е построено през 2007 година и предлага климатизирани помещения за настаняване с балкон.
+		offers accommodation in Pravets with free WiFi and lake views. There is a restaurant, a bar and a terrace at guests' disposal. The property was built in 2007 and offers air-conditioned accommodation with a balcony.
+		Апартаментът разполага с 1 спалня, 1 баня, спално бельо, хавлии, плоскоекранен телевизор с кабелни канали, кът за хранене, напълно оборудвана кухня и вътрешен двор с изглед към езерото.
+		The apartment has 1 bedroom, 1 bathroom, bed linen, towels, a flat-screen TV with cable channels, a dining area, a fully equipped kitchen, and a patio with lake views.
+		На място има детска площадка, а в непосредствена близост до апартамента има условия за пешеходен туризъм.
+		There is a children's playground on site, and there are conditions for hiking in the immediate vicinity of the apartment.
+		Pravets map. Правец карта"
+		/>
 	</head>
 	<body>
 		<div id="contactsModal" class="modal">
@@ -19,20 +31,20 @@
 					<img
 						height="40"
 						width="40"
-						src="./assets/calling-icon.svg"
+						src="./icons/calling-icon.svg"
 						alt="contact"
 					/>
 					<span> +359885970498 </span>
 				</a>
 				<a href="mailto:cvetiigateva@gmail.com">
-					<img height="40" width="40" src="./assets/email.svg" alt="email" />
+					<img height="40" width="40" src="./icons/email.svg" alt="email" />
 					<span> cvetiigateva@gmail.com </span>
 				</a>
 				<a href="https://maps.app.goo.gl/WWYhzSsKdZqFbxM56">
 					<img
 						height="40"
 						width="40"
-						src="./assets/location.svg"
+						src="./icons/location.svg"
 						alt="address"
 					/>
 					<span data-bg="Адрес" data-en="Address"></span>
@@ -46,13 +58,12 @@
 						class="icon"
 						width="100"
 						height="100"
-						src="./assets/icon.svg"
+						src="./icons/icon.svg"
 						alt="icon"
 					/>
 					<span
 						data-en="Pravets Resort"
 						data-bg="Правец апартамент под наем"
-						style="color: white"
 					></span>
 				</a>
 				<div class="nav-items">
@@ -61,7 +72,7 @@
 							class="icon inverted"
 							height="100"
 							width="100"
-							src="./assets/gallery-icon.svg"
+							src="./icons/gallery-icon.svg"
 							alt="gallery"
 						/>
 					</a>
@@ -70,38 +81,49 @@
 							class="icon inverted"
 							height="100"
 							width="100"
-							src="./assets/calling-icon.svg"
+							src="./icons/calling-icon.svg"
 							alt="contact"
 						/>
 					</btn>
-					<div class="icon" style="width: calc(2em * 4 / 3 + 0.5em)">
+					<div class="icon lang">
 						<img
 							height="30"
 							width="40"
 							id="english"
-							src="./assets/english.svg"
+							src="./icons/english.svg"
 							alt="english"
 						/>
 						<img
 							height="30"
 							width="40"
 							id="bulgarian"
-							src="./assets/bulgarian.svg"
+							src="./icons/bulgarian.svg"
 							alt="bulgarian"
 						/>
 					</div>
 				</div>
 			</nav>
 		</header>
+		<div class="modal">
+			<div id="image-holder"></div>
+		</div>
 		<main>
-			<img
-				width="100%"
-				height="100%"
-				src="./photos/pravets-map.jpg"
-				alt="map"
-			/>
-			<h1 data-bg="..." data-en="Coming soon"></h1>
+			<div id="map">
+				<canvas id="canvas" />
+			</div>
+			<div id="rest">
+				<div id="weather-dial">
+					<img src="./icons/sun.svg" alt="day" class="chosen-mode" />
+					<img src="./icons/fog.svg" alt="fog" />
+					<img src="./icons/sunset.svg" alt="sunset" />
+					<img src="./icons/night.svg" alt="night" />
+					<img src="./icons/autumn.svg" alt="autumn" />
+					<img src="./icons/winter.svg" alt="winter" />
+					<div></div>
+				</div>
+			</div>
 		</main>
 	</body>
 	<script src="./js/navbar.js"></script>
+	<script src="./js/photos.js"></script>
 </html>

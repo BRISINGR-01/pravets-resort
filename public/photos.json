@@ -1,0 +1,544 @@
+{
+  "day": [
+    {
+      "images": [
+        "balcony.jpg",
+        "balcony-v-1.jpg",
+        "balcony-v-2.jpg",
+        "balcony-v-3.jpg",
+        "house-5.jpg",
+        "house-6.jpg",
+        "house-7.jpg",
+        "house-8.jpeg ",
+        "house-8.jpg",
+        "house-9.jpg",
+        "house-10.jpg",
+        "house-11.jpg",
+        "house-12.jpeg ",
+        "house-12.jpg",
+        "house-13.jpg",
+        "house-14.jpeg ",
+        "house-15.jpg",
+        "room.jpg",
+        "room-v-1.jpg",
+        "room-v-2.jpg",
+        "terrace-2.jpg"
+      ],
+      "coordinates": {
+        "l": 17,
+        "t": 63
+      }
+    },
+    {
+      "images": [
+        "v-bridge-3.jpg",
+        "bridge-1.jpg",
+        "bridge-2.jpg",
+        "IMG-7c5337057209620d4b19fbabae0ea82d-V.jpg",
+        "IMG-bce70150aca8cd42fa1cfcbee2227674-V.jpg"
+      ],
+      "coordinates": {
+        "l": 62,
+        "t": 80
+      }
+    },
+    {
+      "images": [
+        "20231226_153133.jpg",
+        "20231226_153356.jpg",
+        "v-lake.jpg"
+      ],
+      "coordinates": {
+        "l": 26,
+        "t": 56
+      }
+    },
+    {
+      "images": [
+        "pool-v-4.jpg",
+        "IMG-a13f2b3c70b131dc2f3d583ffa3b4765-V.jpg",
+        "IMG-bf4d949737fd731c275cf3fdf2edd37a-V.jpg"
+      ],
+      "coordinates": {
+        "l": 40,
+        "t": 75
+      }
+    },
+    {
+      "images": [
+        "20231226_154541.jpg",
+        "20231226_154554.jpg",
+        "20231226_154806.jpg",
+        "IMG-5e742c7e08b050f87a89391dde546084-V.jpg"
+      ],
+      "coordinates": {
+        "l": 31,
+        "t": 69
+      }
+    },
+    {
+      "images": [
+        "IMG-63768aee4c54a95e3359b368fbbfc12e-V.jpg",
+        "20231226_154801.jpg",
+        "20231226_154759.jpg"
+      ],
+      "coordinates": {
+        "l": 42,
+        "t": 74
+      }
+    },
+    {
+      "images": [
+        "pool-s-1.jpg",
+        "pool-s-2.jpg",
+        "pool-s-3.jpg"
+      ],
+      "coordinates": {
+        "l": 26,
+        "t": 68
+      }
+    },
+    {
+      "images": [
+        "20210606_190845.jpg",
+        "20220528_203529.jpg",
+        "20220604_185627.jpg",
+        "20220604_185634.jpg",
+        "lake-7.jpg",
+        "IMG-bce70150aca8cd42fa1cfcbee2227674-V.jpg",
+        "IMG-4e6de7911962d715a905b0599e198ce3-V.jpg"
+      ],
+      "coordinates": {
+        "l": 57,
+        "t": 81
+      }
+    },
+    {
+      "images": [
+        "20231226_152139.jpg",
+        "20231226_152158.jpg"
+      ],
+      "coordinates": {
+        "l": 38,
+        "t": 50
+      }
+    },
+    {
+      "images": [
+        "building-s-1.jpg",
+        "house-3.jpeg",
+        "house-4.jpg",
+        "20231226_153825.jpg",
+        "20231226_153845.jpg"
+      ],
+      "coordinates": {
+        "l": 19,
+        "t": 65
+      }
+    },
+    {
+      "images": [
+        "20211024_172652.jpg",
+        "20220423_191307.jpg",
+        "20231226_151517.jpg",
+        "autumn-v-4.jpg",
+        "20231226_151526.jpg",
+        "IMG-9a3a5d87670e747fe9ab83233755f457-V.jpg"
+      ],
+      "coordinates": {
+        "l": 46,
+        "t": 54
+      }
+    },
+    {
+      "images": [
+        "lake-11.jpg",
+        "lake-v-6.jpg"
+      ],
+      "coordinates": {
+        "l": 66,
+        "t": 74
+      }
+    },
+    {
+      "images": [
+        "IMG-8f6a837de93c84df55d20204852c87bc-V.jpg",
+        "IMG-a0439ab221cadf286dbcae06e595a189-V.jpg",
+        "lake-v-7.jpg",
+        "lake-v-8.jpg"
+      ],
+      "coordinates": {
+        "l": 35,
+        "t": 70
+      }
+    },
+    {
+      "images": [
+        "20211023_134456.jpg",
+        "20231224_161234.jpg",
+        "20231224_161238.jpg",
+        "20231224_161245.jpg",
+        "20231224_161307.jpg",
+        "20231224_161316.jpg",
+        "IMG-2b7984b3cf041ad4f44bd0805a275c19-V.jpg",
+        "IMG-1316b7a4250e334861e189ab8f4f35a2-V.jpg",
+        "IMG-572338f3cc50e1ad402b8d31173515fc-V.jpg",
+        "IMG-c27d239e35aff1678ff7f8246b026591-V.jpg",
+        "IMG-e014cdc0b16016b66fa875cff5db9c18-V.jpg",
+        "lake-3.jpg",
+        "lake-4.jpg",
+        "lake-8.jpg",
+        "lake-9.jpg",
+        "lake-v-1.jpg",
+        "lake-v-2-n.jpg",
+        "lake-v-3.jpg",
+        "lake-v-4.jpg",
+        "lake-v-5.jpg"
+      ],
+      "coordinates": {
+        "l": 48,
+        "t": 76
+      }
+    }
+  ],
+  "fog": [
+    {
+      "images": [],
+      "coordinates": {
+        "l": 17,
+        "t": 63
+      }
+    },
+    {
+      "images": [
+        "20211025_090012.jpg"
+      ],
+      "coordinates": {
+        "l": 50,
+        "t": 78
+      }
+    },
+    {
+      "images": [
+        "20211025_091537.jpg"
+      ],
+      "coordinates": {
+        "l": 62,
+        "t": 80
+      }
+    },
+    {
+      "images": [
+        "20221008_085921.jpg",
+        "20221008_090140.jpg",
+        "20221008_085842.jpg"
+      ],
+      "coordinates": {
+        "l": 55,
+        "t": 78
+      }
+    },
+    {
+      "images": [
+        "20211025_090258.jpg"
+      ],
+      "coordinates": {
+        "l": 46,
+        "t": 77
+      }
+    }
+  ],
+  "winter": [
+    {
+      "images": [],
+      "coordinates": {
+        "l": 17,
+        "t": 63
+      }
+    },
+    {
+      "images": [
+        "20230205_111238.jpg",
+        "20230205_111246.jpg"
+      ],
+      "coordinates": {
+        "l": 48,
+        "t": 78
+      }
+    },
+    {
+      "images": [
+        "winter-v-5.jpg",
+        "winter-v-6.jpg",
+        "winter-v-2.jpg"
+      ],
+      "coordinates": {
+        "l": 18,
+        "t": 68
+      }
+    },
+    {
+      "images": [
+        "winter-s-7.jpg",
+        "winter-v-4.jpg"
+      ],
+      "coordinates": {
+        "l": 37,
+        "t": 70
+      }
+    },
+    {
+      "images": [
+        "lake-10.jpg",
+        "winter-v-3.jpg"
+      ],
+      "coordinates": {
+        "l": 31,
+        "t": 67
+      }
+    },
+    {
+      "images": [
+        "20220306_181158.jpg"
+      ],
+      "coordinates": {
+        "l": 63,
+        "t": 69
+      }
+    },
+    {
+      "images": [
+        "winter-s-1.jpg"
+      ],
+      "coordinates": {
+        "l": 51,
+        "t": 76
+      }
+    }
+  ],
+  "sunset": [
+    {
+      "images": [],
+      "coordinates": {
+        "l": 17,
+        "t": 63
+      }
+    },
+    {
+      "images": [
+        "20210620_204154.jpg"
+      ],
+      "coordinates": {
+        "l": 43,
+        "t": 55
+      }
+    },
+    {
+      "images": [
+        "20231224_164912.jpg",
+        "20231224_170028.jpg",
+        "20231224_170035.jpg",
+        "IMG-e3d164231aba06e9ba3f4f648c2d4084-V.jpg",
+        "20231224_161635.jpg"
+      ],
+      "coordinates": {
+        "l": 63,
+        "t": 78
+      }
+    },
+    {
+      "images": [
+        "night-v-2.jpg"
+      ],
+      "coordinates": {
+        "l": 20,
+        "t": 62
+      }
+    },
+    {
+      "images": [
+        "20231224_161713.jpg",
+        "20231224_161727.jpg",
+        "20231224_161735.jpg",
+        "20231224_161757.jpg"
+      ],
+      "coordinates": {
+        "l": 64,
+        "t": 70
+      }
+    },
+    {
+      "images": [
+        "20231224_161855.jpg",
+        "20231224_161935.jpg"
+      ],
+      "coordinates": {
+        "l": 50,
+        "t": 56
+      }
+    }
+  ],
+  "autumn": [
+    {
+      "images": [],
+      "coordinates": {
+        "l": 17,
+        "t": 63
+      }
+    },
+    {
+      "images": [
+        "20211023_134809.jpg"
+      ],
+      "coordinates": {
+        "l": 42,
+        "t": 72
+      }
+    },
+    {
+      "images": [
+        "20211017_141235.jpg",
+        "autumn-v-1.jpg"
+      ],
+      "coordinates": {
+        "l": 46,
+        "t": 74
+      }
+    },
+    {
+      "images": [
+        "autumn-v-2.jpg",
+        "lake-6.jpg"
+      ],
+      "coordinates": {
+        "l": 22,
+        "t": 70
+      }
+    },
+    {
+      "images": [
+        "lake-5.jpg",
+        "autumn-v-3.jpg",
+        "20211023_134456.jpg",
+        "20221031_164031.jpg"
+      ],
+      "coordinates": {
+        "l": 49,
+        "t": 77
+      }
+    }
+  ],
+  "night": [
+    {
+      "images": [],
+      "coordinates": {
+        "l": 17,
+        "t": 63
+      }
+    },
+    {
+      "images": [
+        "20231226_190328.jpg",
+        "20231226_190411.jpg",
+        "20231226_190645.jpg",
+        "20231226_190707.jpg"
+      ],
+      "coordinates": {
+        "l": 67,
+        "t": 74
+      }
+    },
+    {
+      "images": [
+        "20231226_190452.jpg",
+        "20231226_190523.jpg",
+        "20231226_190612.jpg"
+      ],
+      "coordinates": {
+        "l": 62,
+        "t": 77
+      }
+    },
+    {
+      "images": [
+        "20231226_185956.jpg",
+        "20231226_192601.jpg"
+      ],
+      "coordinates": {
+        "l": 41,
+        "t": 76
+      }
+    },
+    {
+      "images": [
+        "20231226_192126.jpg"
+      ],
+      "coordinates": {
+        "l": 20,
+        "t": 62
+      }
+    },
+    {
+      "images": [
+        "20231226_190221.jpg"
+      ],
+      "coordinates": {
+        "l": 48,
+        "t": 76
+      }
+    },
+    {
+      "images": [
+        "20231226_190754.jpg",
+        "20231226_190907.jpg",
+        "20231226_190925.jpg",
+        "20231226_191100.jpg"
+      ],
+      "coordinates": {
+        "l": 64,
+        "t": 68
+      }
+    },
+    {
+      "images": [
+        "20210605_222456.jpg",
+        "20231226_191233.jpg",
+        "20231226_191117.jpg"
+      ],
+      "coordinates": {
+        "l": 55,
+        "t": 59
+      }
+    },
+    {
+      "images": [
+        "20231226_191436.jpg"
+      ],
+      "coordinates": {
+        "l": 49,
+        "t": 56
+      }
+    },
+    {
+      "images": [
+        "20231226_191442.jpg",
+        "20231226_191612.jpg"
+      ],
+      "coordinates": {
+        "l": 44,
+        "t": 52
+      }
+    },
+    {
+      "images": [
+        "20231226_192325.jpg",
+        "20231226_192417.jpg",
+        "20231226_192435.jpg"
+      ],
+      "coordinates": {
+        "l": 34,
+        "t": 70
+      }
+    }
+  ]
+}

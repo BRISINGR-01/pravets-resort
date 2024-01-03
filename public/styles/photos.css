@@ -1,0 +1,154 @@
+#map {
+	position: relative;
+	width: 100%;
+	border: 4px solid black;
+	box-sizing: border-box;
+}
+#map > img {
+	object-position: center;
+	object-fit: contain;
+	filter: brightness(0.9);
+}
+main {
+	overflow-y: auto;
+	justify-content: start;
+	align-items: flex-end;
+}
+#image-holder {
+	display: flex;
+	width: 100%;
+	height: 50%;
+	margin: 1em;
+	box-sizing: border-box;
+	overflow: auto;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-content: start;
+	justify-content: center;
+}
+.image {
+	box-sizing: border-box;
+	border: 4px solid black;
+	z-index: 1;
+	height: 100%;
+	width: auto;
+}
+.point:hover {
+	border: 4.5px solid black;
+	height: 18.5px;
+	width: 18.5px;
+}
+.point {
+	z-index: 1;
+	position: absolute;
+	border-radius: 50%;
+	height: 15px;
+	width: 15px;
+	background: radial-gradient(#fff 40%, #000);
+	border: 3px solid black;
+	cursor: pointer;
+	transform: translate(-50%, -50%);
+}
+.point-ap {
+	background: radial-gradient(#d20707 40%, #000);
+	z-index: 2;
+}
+
+#weather-dial {
+	position: relative;
+	width: 8rem;
+	padding-left: 5rem;
+	padding-top: 1rem;
+	height: 13.5rem;
+}
+#weather-dial > img:nth-child(1) {
+	transform: translate(0, 0);
+}
+#weather-dial > img:nth-child(2) {
+	transform: translate(-3.5rem, 2rem);
+}
+#weather-dial > img:nth-child(3) {
+	transform: translate(3.5rem, 2rem);
+}
+#weather-dial > img:nth-child(4) {
+	transform: translate(3.5rem, 6rem);
+}
+#weather-dial > img:nth-child(5) {
+	transform: translate(0, 8rem);
+}
+#weather-dial > img:nth-child(6) {
+	transform: translate(-3.5rem, 6rem);
+}
+#weather-dial > div {
+	width: 9.3rem;
+	aspect-ratio: 1;
+	background: rgba(159, 159, 159, 1);
+	background: radial-gradient(
+		circle,
+		rgba(66, 66, 66, 1) 20%,
+		rgba(159, 159, 159, 1) 40%,
+		rgba(128, 128, 128, 1) 50%,
+		rgba(66, 66, 66, 1) 70%
+	);
+	transform: translate(-2.95rem, 1rem);
+	border-radius: 50%;
+}
+#weather-dial > img {
+	position: absolute;
+	width: 3rem;
+	height: 3rem;
+	border: 2px solid #000;
+	z-index: 2;
+	border-radius: 50%;
+	cursor: pointer;
+}
+#weather-dial > img:hover {
+	border: 2px solid rgb(45, 122, 173);
+}
+.chosen-mode {
+	border: 4px solid rgb(45, 122, 173) !important;
+}
+#rest {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+canvas {
+	width: 100%;
+}
+/* !important is needed sometimes */
+::-webkit-scrollbar {
+	width: 12px !important;
+	-webkit-border-radius: 10px !important;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3) !important;
+	-webkit-border-radius: 10px !important;
+	border-radius: 10px !important;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	-webkit-border-radius: 10px !important;
+	border-radius: 10px !important;
+	background: #aeb6bc !important;
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5) !important;
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: #aeb6bc !important;
+}
+
+/* tall */
+@media (max-aspect-ratio: 1/1) {
+	#image-holder {
+		height: 90%;
+		flex-direction: row;
+	}
+	.image {
+		width: 100%;
+		height: auto;
+	}
+}
