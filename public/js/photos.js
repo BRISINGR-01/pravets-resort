@@ -158,7 +158,7 @@ function snowSetup() {
 	snowyImgData = ctx.getImageData(0, 0, canvas.width, canvas.height);
 	for (let i = 0; i < snowyImgData.data.length; i += 4) {
 		const [r, g, b] = snowyImgData.data.slice(i, i + 3);
-		const whiten = () => {
+		if (Math.abs(r - g) < 120) {
 			if (r > 120 && g > 120 && b < 100) {
 				snowyImgData.data[i + 0] += 270;
 				snowyImgData.data[i + 1] += 270;
@@ -168,8 +168,7 @@ function snowSetup() {
 				snowyImgData.data[i + 1] = 300 - g;
 				snowyImgData.data[i + 2] = 300 - b;
 			}
-		};
-		if (Math.abs(r - g) < 120) whiten();
+		}
 	}
 	for (let i = 0; i < 300; i++) {
 		snowflakes.push({
